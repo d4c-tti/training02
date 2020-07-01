@@ -1,0 +1,141 @@
+body {
+  font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  color: #403f3f;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  line-height: 80px;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  color: #0099e8;
+  padding: 0 20px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.logo span {
+  color: #33cfed;
+}
+
+nav {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  padding: 0 25px;
+}
+
+.contact {
+  color: #fff;
+  background: #33cfed;
+  padding: 0 60px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.header_wrapper ul {
+  line-height: 80px;
+  margin-left: 10px;
+}
+
+
+.mv_wrapper {
+  height: 750px;
+  background-size: cover;
+  background-image: url("bg.jpg")
+}
+
+.ttl {
+  text-align: center;
+  display: inline-block;
+  padding: 240px 0 200px 0;
+  width: 100%;
+}
+
+.news_wrapper {
+  background: #edfcff;
+  padding: 60px 0;
+}
+
+.news_flex {
+  display: flex;
+}
+
+.news_ttl {
+  width:150px
+}
+
+.news_ttl h2 {
+  color: #0099e8;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.news_ttl a {
+  font-size: 0.9em;
+}
+
+.news_contents {
+  width:1050px;
+}
+.news_contents ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #0099e8;
+}
+
+.news_contents ul li span {
+  color: white;
+  background: #0099e8;
+  width:100px;
+  display: inline-block;
+  text-align: center;
+  padding: 3px 0;
+  margin: 0 40px;
+}
+
+.service_wrapper {
+  padding: 80px 0;
+  text-align: center;
+  color: #0099e8;
+  font-weight: bold;
+}
+
+.service_wrapper h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.service_wrapper p {
+  margin-bottom: 30px;
+}
+
+.thum_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thum {
+  background: rgb(61, 174, 177);
+  width: 380px;
+  height: 200px;
+}
